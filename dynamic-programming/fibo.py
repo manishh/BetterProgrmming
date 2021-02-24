@@ -23,14 +23,15 @@ def dynamic_fibonacci(num):
 if __name__ == '__main__':
 
     fibo_num = 45  # change as needed
-    start = timer()
+    start1 = timer()
     print(f"Dynamic fibonacci answer = {dynamic_fibonacci(fibo_num)}")
     dyna_end = timer()
-    print(f"Time for Dynamic = {timedelta(seconds=dyna_end-start)}")
+    print(f"Time for Dynamic = {timedelta(seconds=dyna_end-start1)}")
+    start2 = timer()
     print(f"Recursive fibonacci answer = {recursive_fibonacci(fibo_num)}")
     rec_end = timer()
-    print(f"Time for Recursive = {timedelta(seconds=rec_end-start)}")
-
-
-
-
+    print(f"Time for Recursive = {timedelta(seconds=rec_end-start2)}")
+    
+    
+    
+    
